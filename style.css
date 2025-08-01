@@ -1,0 +1,763 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/*--container-*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.container2{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*--hero-header-*/
+.hero-header{
+    background: url(image/hero-header-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    width: 100%;
+}
+/*---header-*/
+.header {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.logo {
+    width: 20%;
+    float: left;
+   border-right: 1.5px solid rgba(255, 255, 255, 0.3);
+    padding: 5px 0px 8px 7px;
+}
+.nav-bar {
+    width: 60%;
+    float: left;
+}
+.menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  display: block;
+  border-radius: 2px;
+}
+.nav-bar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+   padding: 25px 0px;
+}
+.nav-bar li {
+    font-family: Public Sans;
+    font-weight: 500;
+    font-size: 16px;
+}
+.nav-bar a {
+    float: left;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+.nav-bar a:hover {
+    color: blue;
+}
+.contact {
+    width: 19%;
+    float: right;
+    border-left: 1.5px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    gap: 5px;
+    padding: 15px 3px;
+}
+
+.contact img {
+    float: left;
+    width: 35px;
+    padding: 4px 0px;
+}
+.contact p {
+    font-family: Public Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 0px 0px 0px;
+    float: right;
+}
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: blue;
+}
+/*--banner-*/
+.banner {
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+}
+.banner-text {
+    padding: 70px 0px;
+}
+.banner-text h2 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 170px;
+    text-align: center;
+}
+.banner-text h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 170px;
+    text-align: center;
+}
+/*--section-*/
+.section {
+    width: 100%;
+    float: left;
+     padding: 70px 0px;
+}
+.img1 {
+    width: 45%;
+    float: left;
+    padding-left: 30px;
+}
+.img1 img {
+    max-width: 100%;
+}
+.text1 {
+    width: 50%;
+    float: right;
+}
+
+.text1 h4 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(26, 49, 134, 1);
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+.text1 h2 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    padding: 15px 0px;
+    color: rgba(48, 52, 57, 1);
+}
+.text1 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(64, 76, 91, 1);
+}
+p.par1 {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+   padding-top: 10px;
+    color: rgba(64, 76, 91, 1);
+}
+.sec-list ul {
+    list-style-type: none;
+  padding: 10px 0px;
+}
+.sec-list li {
+    padding: 14px 0px 0px 0px;
+}
+.sec-list li img {
+    float: left;
+    width: 20px;
+    padding-top: 5px;
+}
+.sec-list li p {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 29px;
+}
+a.sec1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1.5px solid rgba(64, 76, 91, 1);
+    color: rgba(64, 76, 91, 1);
+    line-height: 80px;
+}
+a.sec1:hover {
+    color: white;
+    background-color: rgba(26, 49, 134, 1);
+}
+/*-solu-*/
+.solu {
+    width: 100%;
+    float: left;
+    background-color: rgba(243, 245, 251, 1);
+    padding: 80px 0px;
+}
+.solu h4 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(26, 49, 134, 1);
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+.solu h2 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 45px;
+    float: left;
+    color: rgba(48, 52, 57, 1);
+}
+a.view {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 16px;
+    float: right;
+    border: 1px solid rgba(26, 49, 134, 1);
+    background: rgba(26, 49, 134, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 10px 12px;
+}
+a.view:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(26, 49, 134, 1);
+}
+.service-cards {
+    float: left;
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    padding-top: 24px;
+}
+.card {
+    width: 25%;
+    float: left;
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+.card img {
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 20px;
+}
+.overlay h3 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.overlay p {
+    display: none;
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.overlay:hover p {
+    display: block;
+}
+.overlay:hover .img2 {
+    display: none;
+}
+/*--intro-*/
+.intro {
+    width: 100%;
+    float: left;
+    background: url(image/intro-background.jpg);
+}
+.intro-img {
+    width: 50%;
+    float: right;
+}
+.intro-img img {
+    max-width: 100%;
+    height: auto;
+}
+.form-div h4 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 35px;
+    padding-bottom: 30px;
+    color: rgba(48, 52, 57, 1);
+}
+.form-div {
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+}
+.quote-form {
+    width: 90%;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px  #ffffff;;
+}
+.quote-form input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(227, 227, 227, 1);
+    font-family: Public Sans;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(64, 76, 91, 1);
+}
+button.btn {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: rgba(26, 49, 134, 1);
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+}
+button.btn:hover {
+    color: rgba(26, 49, 134, 1);
+    background: white;
+    border: 1px solid rgba(26, 49, 134, 1);
+}
+.faq {
+    padding: 60px 0px;
+    float: left;
+}
+.faq-header {
+    width: 100%;
+    float: left;
+}
+.faq-header p {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+
+.faq-header h2 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 0px;
+}
+
+.faq-item {
+    background-color: white;
+    float: left;
+    padding: 11px 10px;
+    border: 1px solid rgba(26, 49, 134, 1);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.faq-item h5 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 18px;
+    float: left;
+    line-height: 50px;
+}
+.faq-item p {
+    display: none;
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    float: left;
+    color: rgba(64, 76, 91, 1);
+}
+.faq-item:hover p {
+    display: block;
+}
+.faq-item h5 img {
+    float: left;
+}
+.faq-item:hover h5 img {
+    display: none;
+}
+.img-faq {
+    float: right;
+}
+.img-1 {
+    display: block;
+}
+
+.img-faq:hover .img-1 {
+    display: none;
+}
+.img-faq:hover .img-2{
+    display: block;
+}
+/*--client-side-*/
+.client-side {
+    width: 100%;
+    float: left;
+   padding: 70px 0px;
+}
+.client-side h5 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: rgba(26, 49, 134, 1);
+    letter-spacing: 2px;
+}
+ .client-side h2 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 15px 0px;
+    color: rgba(48, 52, 57, 1);
+}
+.client-com {
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.client-1 {
+    width: 45%;
+    float: left;
+}
+.client-1 img {
+    float: left;
+    width: 30%;
+}
+.text-client1 {
+    float: right;
+    width: 70%;
+ padding: 25px 0px 0px 30px;
+}
+.text-client1 h3 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(64, 76, 91, 1);
+}
+.text-client1 h5 {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: rgba(64, 76, 91, 1);
+  padding: 10px 0px 20px 0px;
+   text-transform: none;
+    letter-spacing: 0px;
+}
+.text-client1 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+  line-height: 25px;
+  color: rgba(64, 76, 91, 1);
+}
+.client-2 {
+    width: 45%;
+    float: right;
+}
+.client-2 img {
+    width: 30%;
+    float: left;
+}
+/*--article-*/
+.article {
+    width: 100%;
+    float: left;
+    background-color: rgba(243, 245, 251, 1);
+    padding: 80px 0px;
+}
+.article h5 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(26, 49, 134, 1);
+    letter-spacing: 2px;
+}
+.article h2 {
+    font-family: Public Sans;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 0px 25px 0px;
+    color: rgba(48, 52, 57, 1);
+}
+
+.article-card {
+    width: 50%;
+    float: left;
+    border: 1px solid rgba(212, 212, 212, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 10px;
+}
+.article-card img {
+    max-width: 100%;
+}
+.article-card p {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px 15px;
+    color: rgba(64, 76, 91, 1);
+
+}
+.article-card a {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 59px;
+    padding: 15px 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(26, 49, 134, 1);
+    margin-left: 14px;
+}
+.article-card a:hover {
+    background-color: white;
+    border: 1px solid rgba(26, 49, 134, 1);
+    color: rgba(26, 49, 134, 1);
+}
+.box {
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 10px;
+    margin-top: 33px;
+}
+.article-box {
+    width: 45%;
+    float: right;
+}
+.box img {
+    width: 30%;
+}
+.text-art h5 {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(64, 76, 91, 1);
+    text-align: left;
+}
+.text-art p {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(64, 76, 91, 1);
+    padding-top: 15px;
+}
+/*--footer-*/
+.footer {
+    width: 100%;
+    float: left;
+    background-color: rgba(14, 25, 68, 1);
+}
+.footer-div {
+    padding: 50px 0px;
+    float: left;
+}
+.footer1 {
+    width: 27%;
+    float: left;
+}
+.footer1 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(160, 167, 198, 1);
+    padding: 20px 10px 0px 0px;
+}
+.footer2 {
+    width: 16%;
+    float: left;
+    padding: 0px 0px 0px 25px;
+}
+h4.text {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+}
+ul.links-list {
+    list-style: none;
+    padding: 15px 0px;
+}
+ul.links-list li {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+ul.links-list li a {
+    text-decoration: none;
+    color: rgba(160, 167, 198, 1);
+}
+.footer3 {
+    width: 27%;
+    float: left;
+}
+h4.text9 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+ul.list {
+    list-style-type: none;
+    padding: 15px 0px;
+}
+ul.list li {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+ul.list li a {
+    text-decoration: none;
+    color: rgba(160, 167, 198, 1);
+}
+.footer4 {
+    width: 30%;
+    float: left;
+}
+.footer4 h4 {
+    font-family: Public Sans;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 20px;
+}
+.footer4 ul {
+    list-style: none;
+    padding-top: 12px;
+}
+li.list1 {
+    padding: 14px 18px;
+}
+li.list1 img {
+    float: left;
+    margin-right: 15px;
+}
+
+li.list1 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+}
+li.list2 {
+    padding: 15px 19px;
+}
+li.list2 img {
+    float: left;
+    margin-right: 15px;
+}
+
+li.list2 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+}
+li.list3 {
+    padding: 15px 19px;
+}
+li.list3 img {
+    float: left;
+    margin-right: 15px;
+}
+
+li.list3 p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+}
+.footer5 {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(40, 53, 101, 1);
+    padding: 21px 0px;
+}
+.left-side {
+    width: 50%;
+    float: left;
+}
+.left-side li img {
+    float: left;
+    margin-right: 6px;
+}
+.left-side ul {
+    list-style: none;
+}
+.left-side li {
+    text-decoration: none;
+    font-family: Public Sans;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+    display: inline-block;
+    padding: 0px 10px;
+}
+.right-side {
+    width: 35%;
+    float: right;
+}
+.right-side p {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+}
+.footer6 {
+    width: 100%;
+    float: left;
+}
+.footer6 p {
+    font-family: Public Sans;
+    font-size: 16px;
+    color: rgba(160, 167, 198, 1);
+    text-align: center;
+    padding: 15px 0px;
+}
